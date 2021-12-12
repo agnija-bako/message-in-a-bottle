@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Message from './components/Message'
 
 import './custom.css'
 
@@ -7,7 +8,9 @@ export default class App extends Component {
 
   render () {
       return (
-        <div>Hello world</div>
+          <div>
+              <Message/>
+          </div>
     );
   }
 }
